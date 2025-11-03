@@ -36,7 +36,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      detail: "sales@snackdistro.com"
+      detail: "sales@snackit.com"
     },
     {
       icon: MapPin,
