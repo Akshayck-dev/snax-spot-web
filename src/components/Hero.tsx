@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-snacks.jpg";
+import heroImage from "@/assets/hero-bakery.jpg";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
@@ -26,11 +26,11 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20 md:py-32">
         <div className="max-w-3xl animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Premium Snacks, Delivered Fresh
+            Fresh Bakery, Delivered Daily
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl">
-            Your trusted partner for quality snack distribution. From chips to chocolates, 
-            we bring the best treats to your business.
+            Your trusted partner for premium bakery distribution. From artisan breads to delicious pastries, 
+            we bring fresh baked goods to your business every day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-slide-in-left">
             <Button 

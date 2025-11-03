@@ -4,18 +4,18 @@ const About = () => {
   const features = [
     {
       icon: Award,
-      title: "Quality Guaranteed",
-      description: "Only the finest brands and freshest products make it to our catalog"
+      title: "Fresh Daily",
+      description: "All our bakery products are baked fresh daily with premium ingredients"
     },
     {
       icon: Truck,
-      title: "Fast Delivery",
-      description: "Reliable distribution network ensuring timely delivery across regions"
+      title: "Early Morning Delivery",
+      description: "Fresh baked goods delivered to your location before opening hours"
     },
     {
       icon: Clock,
-      title: "24/7 Support",
-      description: "Our dedicated team is always ready to assist with your orders"
+      title: "Consistent Supply",
+      description: "Reliable daily deliveries ensuring you never run out of fresh bakery items"
     }
   ];
 
@@ -27,8 +27,8 @@ const About = () => {
             About Our Business
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            With years of experience in snack distribution, we've built strong 
-            partnerships with leading brands to bring you the best selection.
+            With years of experience in bakery distribution, we've built strong 
+            partnerships with local and artisan bakeries to bring you the freshest products daily.
           </p>
         </div>
 

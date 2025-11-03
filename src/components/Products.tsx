@@ -1,30 +1,30 @@
-import chipsImage from "@/assets/product-chips.jpg";
-import nutsImage from "@/assets/product-nuts.jpg";
-import candyImage from "@/assets/product-candy.jpg";
-import barsImage from "@/assets/product-bars.jpg";
+import breadImage from "@/assets/product-bread.jpg";
+import pastriesImage from "@/assets/product-pastries.jpg";
+import cakesImage from "@/assets/product-cakes.jpg";
+import cookiesImage from "@/assets/product-cookies.jpg";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Products = () => {
   const products = [
     {
-      image: chipsImage,
-      title: "Chips & Crisps",
-      description: "Classic and gourmet potato chips in various flavors"
+      image: breadImage,
+      title: "Artisan Breads",
+      description: "Fresh baguettes, sourdough, and whole grain loaves baked daily"
     },
     {
-      image: nutsImage,
-      title: "Nuts & Seeds",
-      description: "Healthy snacking options with premium mixed nuts"
+      image: pastriesImage,
+      title: "Pastries & Croissants",
+      description: "Flaky croissants, Danish pastries, and sweet delights"
     },
     {
-      image: candyImage,
-      title: "Chocolates & Candy",
-      description: "Sweet treats and premium chocolate selections"
+      image: cakesImage,
+      title: "Cakes & Cupcakes",
+      description: "Beautifully decorated cakes for all occasions"
     },
     {
-      image: barsImage,
-      title: "Granola Bars",
-      description: "Energy-packed bars perfect for on-the-go"
+      image: cookiesImage,
+      title: "Fresh Cookies",
+      description: "Variety of freshly baked cookies in different flavors"
     }
   ];
 
@@ -36,8 +36,8 @@ const Products = () => {
             Our Product Range
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore our diverse selection of premium snacks sourced from 
-            top brands worldwide.
+            Explore our diverse selection of fresh bakery items sourced from 
+            the finest local and artisan bakers.
           </p>
         </div>
 

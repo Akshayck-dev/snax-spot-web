@@ -53,8 +53,8 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to stock your shelves with quality snacks? Contact us today 
-            for pricing and availability.
+            Ready to stock your shelves with fresh bakery products? Contact us today 
+            for pricing and daily delivery schedules.
           </p>
         </div>
 

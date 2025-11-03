@@ -2,12 +2,12 @@ import { CheckCircle2 } from "lucide-react";
 
 const Benefits = () => {
   const benefits = [
-    "Competitive wholesale pricing for bulk orders",
-    "Wide variety of brands and products",
-    "Flexible delivery schedules",
-    "Quality assurance on all products",
-    "Custom order options available",
-    "Dedicated account managers"
+    "Fresh products baked and delivered daily",
+    "Wide variety of bakery items from artisan bakers",
+    "Early morning delivery to ensure freshness",
+    "Quality guarantee on all bakery products",
+    "Custom orders for special occasions",
+    "Dedicated support for your bakery needs"
   ];
 
   return (

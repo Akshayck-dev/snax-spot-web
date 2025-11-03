@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <img src={logo} alt="SNACK IT Logo" className="h-12 mb-4" />
             <p className="text-background/80">
-              Your trusted partner for premium snack distribution.
+              Your trusted partner for fresh bakery distribution.
             </p>
           </div>
           <div>
