@@ -91,6 +91,21 @@ export default {
         "bounce-subtle": {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-10px)" }
+        },
+        "strike-in": {
+          "0%": { 
+            opacity: "0", 
+            transform: "scale(0.3) rotate(-5deg)",
+            filter: "blur(10px)"
+          },
+          "50%": { 
+            transform: "scale(1.1) rotate(2deg)" 
+          },
+          "100%": { 
+            opacity: "1", 
+            transform: "scale(1) rotate(0deg)",
+            filter: "blur(0px)"
+          }
         }
       },
       animation: {
@@ -100,7 +115,8 @@ export default {
         "slide-in-left": "slide-in-left 0.6s ease-out",
         "slide-in-right": "slide-in-right 0.6s ease-out",
         "scale-in": "scale-in 0.5s ease-out",
-        "bounce-subtle": "bounce-subtle 2s ease-in-out infinite"
+        "bounce-subtle": "bounce-subtle 2s ease-in-out infinite",
+        "strike-in": "strike-in 0.8s cubic-bezier(0.34, 1.56, 0.64, 1)"
       },
     },
   },

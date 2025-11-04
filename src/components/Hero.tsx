@@ -24,10 +24,15 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container relative z-10 px-4 py-20 md:py-32">
-        <div className="max-w-3xl animate-fade-in">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
+        <div className="max-w-3xl">
+          <div className="mb-4 animate-strike-in">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-primary mb-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.5)]">
+              SnacKit
+            </h1>
+          </div>
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in">
             Fresh Bakery, Delivered Daily
-          </h1>
+          </h2>
           <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl">
             Your trusted partner for premium bakery distribution. From artisan breads to delicious pastries, 
             we bring fresh baked goods to your business every day.
