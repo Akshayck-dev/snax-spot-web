@@ -1,5 +1,4 @@
-import breadImage from "@/assets/product-bread.jpg";
-import pastriesImage from "@/assets/product-pastries.jpg";
+import chipsImage from "@/assets/product-chips.jpg";
 import cakesImage from "@/assets/product-cakes.jpg";
 import cookiesImage from "@/assets/product-cookies.jpg";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,14 +6,9 @@ import { Card, CardContent } from "@/components/ui/card";
 const Products = () => {
   const products = [
     {
-      image: breadImage,
-      title: "Artisan Breads",
-      description: "Fresh baguettes, sourdough, and whole grain loaves baked daily"
-    },
-    {
-      image: pastriesImage,
-      title: "Pastries & Croissants",
-      description: "Flaky croissants, Danish pastries, and sweet delights"
+      image: chipsImage,
+      title: "Chips",
+      description: "Crispy and flavorful chips in various tastes and sizes"
     },
     {
       image: cakesImage,
@@ -41,7 +35,7 @@ const Products = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {products.map((product, index) => (
             <Card
               key={index}
