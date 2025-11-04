@@ -7,8 +7,8 @@ const Products = () => {
   const products = [
     {
       image: chipsImage,
-      title: "Chips",
-      description: "Crispy and flavorful chips in various tastes and sizes"
+      title: "Coconut Chips & Mixture",
+      description: "Crispy coconut chips and savory mixture in various flavors"
     },
     {
       image: cakesImage,
