@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <img src={logo} alt="SNACK IT Logo" className="h-12 mb-4" />
+            <img src={logo} alt="SnacKit Logo" className="h-12 mb-4" />
             <p className="text-background/80">
               Your trusted partner for fresh bakery distribution.
             </p>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-background/20 pt-8 text-center text-background/60">
-          <p>&copy; {currentYear} SNACK IT. All rights reserved.</p>
+          <p>&copy; {currentYear} SnacKit. All rights reserved.</p>
         </div>
       </div>
     </footer>
