@@ -31,7 +31,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      detail: "+1 (555) 123-4567"
+      detail: "7293746456"
     },
     {
       icon: Mail,
