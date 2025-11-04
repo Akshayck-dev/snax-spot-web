@@ -41,7 +41,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      detail: "123 Distribution Way, City, State"
+      detail: "Payyanakal, Kozhikode"
     }
   ];
 
