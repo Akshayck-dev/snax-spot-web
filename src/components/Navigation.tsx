@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "@/assets/snackit-logo.jpg";
+import logo from "@/assets/snackit-logo.png";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -41,7 +41,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
-            <img src={logo} alt="SnacKit Logo" className="h-12 md:h-16 w-auto" />
+            <img src={logo} alt="SnacKit Logo" className="h-16 md:h-20 w-auto" />
           </button>
 
           {/* Desktop Navigation */}

@@ -1,4 +1,4 @@
-import logo from "@/assets/snackit-logo.jpg";
+import logo from "@/assets/snackit-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
